@@ -3,8 +3,8 @@
 node_modules
 
 # Include the dist directory but not its contents
-!docs/.vitepress/dist/
 docs/.vitepress/dist/*
+!docs/.vitepress/dist/.gitkeep
 
 # VitePress cache
 docs/.vitepress/cache
