@@ -13,6 +13,7 @@ addonName: ''
 footer:
   message: 'Documentation Distributed under CC BY 4.0.  The Linux Foundation® (TLF) has registered trademarks and uses trademarks. For a list of TLF trademarks, see: Trademark Usage.'
   copyright: ''
+customClass: opencost
 
 # VitePress hero settings
 hero:
@@ -55,8 +56,10 @@ features:
 ---
 
 <style module>
+  body.opencost {
 :root {
-  --vp-home-hero-name-color: rgb(85, 181, 85);
+    --vp-home-hero-name-color: rgb(85, 181, 85);
+  }
 }
 </style>
 

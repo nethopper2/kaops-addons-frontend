@@ -13,6 +13,7 @@ addonName: 'Karpenter'
 footer:
   message: ''
   copyright: '© 2025 Amazon.com, Inc. or its affiliates. All Rights Reserved'
+customClass: karpenter
 
 # VitePress hero settings
 hero:
