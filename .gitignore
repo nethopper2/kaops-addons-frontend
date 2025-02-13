@@ -2,8 +2,9 @@
 .thumbs.db
 node_modules
 
-# VitePress build output
-docs/.vitepress/dist
+# Include the dist directory but not its contents
+!docs/.vitepress/dist/
+docs/.vitepress/dist/*
 
 # VitePress cache
 docs/.vitepress/cache
