@@ -1,14 +1,29 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme'
-import { useData } from 'vitepress'
+import { useData, useRouter } from 'vitepress'
+import {  watch, onMounted } from 'vue'
 
-const { page, frontmatter } = useData()
+const { frontmatter } = useData()
 const { Layout } = DefaultTheme
+
+const router = useRouter()
+
+onMounted(() => {
+  watch(
+    () => router.route.path,
+    (newPath) => {
+      const homeHeroNameColor = frontmatter.value.homeHeroNameColor
+      if (homeHeroNameColor) {
+        document.body.style.setProperty('--vp-home-hero-name-color', homeHeroNameColor);
+      }      
+    },
+    { immediate: true }
+  )
+})
 
 </script>
 
 <template>
-  
   <Layout>
     <template #layout-top>
       <header-component />
@@ -18,3 +33,4 @@ const { Layout } = DefaultTheme
     </template>
   </Layout>
 </template>
+

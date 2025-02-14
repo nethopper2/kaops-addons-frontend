@@ -13,7 +13,7 @@ addonName: 'Karpenter'
 footer:
   message: ''
   copyright: '© 2025 Amazon.com, Inc. or its affiliates. All Rights Reserved'
-customClass: karpenter
+homeHeroNameColor: rgb(92, 100, 171)
 
 # VitePress hero settings
 hero:
@@ -41,12 +41,8 @@ features:
     title: Minimize operational overhead
     details: Karpenter comes with a set of opinionated defaults in a single, declarative NodePool resource which can easily be customized. No additional configuration required!
 
-
 ---
 
 <style module>
-:root {
-  --vp-home-hero-name-color: rgb(92, 100, 171);
-}
 </style>
 

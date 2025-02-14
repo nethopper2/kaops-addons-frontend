@@ -13,6 +13,7 @@ addonName: 'Velero'
 footer:
   message: ''
   copyright: '© 2025 Velero Authors. A VMware-backed project.'
+homeHeroNameColor: rgb(0, 145, 218)
 
 # VitePress hero settings
 hero:
@@ -51,8 +52,5 @@ features:
 ---
 
 <style module>
-:root {
-  --vp-home-hero-name-color: rgb(0, 145, 218);
-}
 </style>
 
