@@ -6,8 +6,8 @@ layout: home
 title: 'Velero'
 navbar: false
 logo:
-  light: '/assets/velero/logo.png'
-  dark: '/assets/velero/logo.png'
+  light: https://nh-addons.s3.us-east-1.amazonaws.com/velero/logo.png
+  dark: https://nh-addons.s3.us-east-1.amazonaws.com/velero/logo.png
   height: '24px'
 addonName: 'Velero'
 footer:

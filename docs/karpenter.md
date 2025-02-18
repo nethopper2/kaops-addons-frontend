@@ -6,8 +6,8 @@ layout: home
 title: 'Karpenter'
 navbar: false
 logo:
-  light: '/assets/karpenter/logo.png'
-  dark: '/assets/karpenter/logo.png'
+  light: https://nh-addons.s3.us-east-1.amazonaws.com/karpenter/logo.png
+  dark: https://nh-addons.s3.us-east-1.amazonaws.com/karpenter/logo.png
   height: '24px'
 addonName: 'Karpenter'
 footer:

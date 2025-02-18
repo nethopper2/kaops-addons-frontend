@@ -6,8 +6,8 @@ layout: home
 title: 'Open WebUI'
 navbar: false
 logo:
-  light: '/assets/openwebui/logo.png'
-  dark: '/assets/openwebui/logo-dark.png'
+  light: https://nh-addons.s3.us-east-1.amazonaws.com/openwebui/logo.png
+  dark: https://nh-addons.s3.us-east-1.amazonaws.com/openwebui/logo-dark.png
   height: '24px'
 addonName: 'Open WebUI'
 footer:

@@ -6,8 +6,8 @@ layout: home
 title: 'Ollama'
 navbar: false
 logo:
-  light: '/assets/ollama/logo.png'
-  dark: '/assets/ollama/logo.png'
+  light: https://nh-addons.s3.us-east-1.amazonaws.com/ollama/logo.png
+  dark: https://nh-addons.s3.us-east-1.amazonaws.com/ollama/logo-dark.png
   height: '24px'
 addonName: 'Ollama'
 footer:

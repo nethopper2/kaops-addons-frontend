@@ -6,8 +6,8 @@ layout: home
 title: 'OpenCost'
 navbar: false
 logo:
-  light: '/assets/opencost/logo-signature-light.png'
-  dark: '/assets/opencost/logo-signature-dark.png'
+  light: https://nh-addons.s3.us-east-1.amazonaws.com/opencost/logo-signature-light.png
+  dark: https://nh-addons.s3.us-east-1.amazonaws.com/opencost/logo-signature-dark.png
   height: '24px'
 addonName: ''
 footer:
