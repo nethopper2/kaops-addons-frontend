@@ -2,8 +2,9 @@
 import DefaultTheme from 'vitepress/theme'
 import { useData, useRouter } from 'vitepress'
 import {  watch, onMounted } from 'vue'
+import NotFound from './NotFound.vue'
 
-const { frontmatter } = useData()
+const { frontmatter, page } = useData()
 const { Layout } = DefaultTheme
 
 const router = useRouter()
@@ -24,7 +25,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <Layout>
+  <NotFound v-if="page.isNotFound" />
+  
+  <Layout v-else >
     <template #layout-top>
       <header-component />
     </template>
