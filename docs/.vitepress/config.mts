@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   // https://vitepress.dev/reference/default-theme-config
   title: 'KAOPS Addon',
+  appearance: 'dark',
   themeConfig: {
   // These settings must be defined in the individual addon pages     
   }

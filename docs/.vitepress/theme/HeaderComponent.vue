@@ -1,6 +1,8 @@
 <script setup>
 import { useData } from 'vitepress';
 import { SunIcon, MoonIcon } from '@heroicons/vue/24/solid';
+import {  onBeforeMount } from 'vue'
+// import { nextTick } from 'vue'
 
 const { frontmatter, isDark } = useData();
 
@@ -10,6 +12,15 @@ const imgHeight = `height: ${logo?.height}`
 const toggleDarkMode = () => {
   isDark.value = !isDark.value;
 };
+
+onBeforeMount(async () => {
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  if (prefersDark) {
+    document.documentElement.classList.add('dark');
+  } else {
+    document.documentElement.classList.remove('dark');
+  }
+})
 
 </script>
 
@@ -22,7 +33,7 @@ const toggleDarkMode = () => {
         <img v-else :style="imgHeight" :src="logo?.dark" alt="Dark Logo">
         <span class="font-bold ml-2">{{ addonName }}</span>
       </div>
-      <button @click="toggleDarkMode" class="ml-auto text-sm p-2 bg-blue-500 dark:bg-blue-700 text-white rounded flex items-center">
+      <button @click="toggleDarkMode" class="ml-auto rounded flex items-center">
         <span v-if="isDark">
           <SunIcon class="h-5 w-5 mr-2" />
         </span>
