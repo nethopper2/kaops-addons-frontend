@@ -4,7 +4,7 @@ Follow these steps to create a page for a new Addon
   - logo
   - hero image
   - feature images
-- Create new markdown file `docs/[addon-name]`
+- Create new markdown file `docs/[addon-name].md`
   - duplicate the markdown file from an exisitng addon 
   - change all text and image references
 

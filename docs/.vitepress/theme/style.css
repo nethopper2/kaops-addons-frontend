@@ -1,1 +1,4 @@
 @import "tailwindcss";
+
+:root.dark img[src$=".svg"] { filter: invert(1); }
+:root:not(.dark) img[src$=".svg"] { filter: invert(0); }
