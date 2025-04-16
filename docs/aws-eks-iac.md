@@ -6,7 +6,7 @@ layout: home
 title: 'AWS EKS'
 navbar: false
 logo:
-  light: https://nh-addons.s3.us-east-1.amazonaws.com/aws-eks/logo.png
+  light: https://nh-addons.s3.us-east-1.amazonaws.com/aws-eks/logo-light.png
   dark: https://nh-addons.s3.us-east-1.amazonaws.com/aws-eks/logo-dark.png
   height: '24px'
 addonName: 'Amazon EKS'
