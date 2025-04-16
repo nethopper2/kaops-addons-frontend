@@ -13,7 +13,7 @@ addonName: 'Single Sign On'
 footer:
   message: 
   copyright: Copyright © 2025 Nethopper
-homeHeroNameColor: rgb(0, 255, 0)
+homeHeroNameColor: rgb(108, 168, 255)
 
 # VitePress hero settings
 hero:
